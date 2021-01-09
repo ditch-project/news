@@ -6,9 +6,10 @@ header {
 
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 55px;
 
     margin-top: 0.9%;
+    margin-bottom: 1.5%;
     text-align: center;
 
     user-select: none;
@@ -19,4 +20,23 @@ header {
 
 header::selection {
     background: transparent;
+}
+
+.majorheadline {
+    background: white;
+    color: black;
+
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 40px;
+
+    margin-top: 2.0%;
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+    text-align: center;
+}
+
+.vl {
+    border-left: 6px solid black;
+    height: 100%;
 }
